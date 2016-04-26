@@ -1,0 +1,114 @@
+@charset "UTF-8";
+
+html {
+  height: 100%;
+}
+
+body {
+  font-family: Arial, Verdana, sans-serif;
+  margin: 0;
+  height: 100%;
+  text-align: center;
+}
+
+#header {
+  background-color: #EEFFFF;
+  height: 48px;
+  width: 100%;
+  margin: 0;
+}
+
+div .mainBtn{
+  background: none;
+  border: none;
+  height: 100%;
+}
+
+div div #logo{
+  float: left;
+}
+
+div div #icon{
+  float: right;
+}
+
+img {
+  height: 36px;
+}
+
+#menu {
+  position: absolute;
+  width: 100%;
+  height: 480px;
+  z-index: 2;
+  display: none;
+}
+
+#menu div{
+  background-color: #CBFFD3;
+  margin: auto;
+  width: 240px;
+  height: 360px;
+  text-align: center;
+}
+
+#container {
+  background-color: #EEEEEE;
+  width: 100%;
+  min-height: 480px;
+  min-width: 300px;
+  float: left;
+}
+
+/*for smartphone*/
+
+/*for tablet*/
+/*@media all and (min-width: 480px){
+
+}*/
+
+/*for PC*/
+@media all and (min-width: 768px){
+  #menuBtn{
+    display: none;
+  }
+
+  div#wrapper{
+    width: 80%;
+    margin: 0 auto;
+    border: 1px solid #FF0000;
+    height: 100%;
+    min-height: 96px;
+    margin: 0 auto;
+  }
+
+  div#left{
+    width: 45%;
+    height: 100%;
+    float: left;
+  }
+  #header{
+    width: 100%;
+    left: 80px;
+  }
+  #menu {
+    width: 100%;
+    display: block;
+    position:static;
+    height: 480px;
+  }
+  #menu div{
+    background-color: #CBFFD3;
+    width: 100%;
+    height: 480px;
+  }
+  button#close{
+    display: none;
+  }
+
+  #container {
+    width: 55%;
+    height: 100%;
+    min-height: 720px
+  }
+}
